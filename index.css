@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: "DsDigital";
+    src: url(ds_digital/DS-DIGI.TTF);
+}
+
+#numHome,
+#numGuest {
+    font-family: "DsDigital";
+    font-size: 90px;
+    border-radius: 5px;
+    background-color: black;
+    color: #F8465E;
+    width: 140px;
+    height: 100px;
+
+}
+
+h3 {
+    font-size: 40px;
+}
+
+
+.container {
+    width: 500px;
+    height: 270px;
+    text-align: center;
+    background-color: #182042;
+    margin: 100px 500px 0px;
+    border-radius: 10px;
+    display: flex;
+
+    justify-content: space-between;
+    color: white;
+    flex-direction: column;
+
+
+}
+
+.scoreboard {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.añadir {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.añadir p {
+    border: 1px solid white;
+    padding: 7px;
+    font-family: "DsDigital";
+    border-radius: 3px;
+
+}
+
+.añadir p:hover {
+    cursor: pointer;
+}
+
+#newGame {
+    color: white;
+    border: 1px solid none;
+    background-color: black;
+    width: 90px;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 3px;
+
+}
+
+#newGame p:hover {
+    cursor: pointer;
+}

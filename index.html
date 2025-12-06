@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+   <link rel="stylesheet" href="index.css" type="text/css">
+</head>
+<body>
+<div class="container">
+    <div class="scoreboard">
+    <div>
+        <h3>HOME</h3>
+         <p id="numHome">0</p>
+         <div class="añadir">
+        <p onclick="homeAdd1()">+1</p>
+        <p onclick="homeAdd2()">+2</p>
+        <p onclick="homeAdd3()">+3</p>
+
+    </div>
+    </div>
+
+  
+    <div>
+        <h3>GUEST</h3>
+        <p id="numGuest">0</p>
+        <div class="añadir">
+        <p onclick="guestAdd1()">+1</p>
+        <p onclick="guestAdd2()">+2</p>
+        <p onclick="guestAdd3()">+3</p>
+
+    </div>
+        
+    </div>
+    </div>
+
+    <button id="newGame" onclick="newGame ()"><p>New Game</p></button>
+
+
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
